@@ -1,6 +1,6 @@
-
+<!DOCTYPE html>
 <html>
-<head>
+<meta>
     <!--Import Google Icon Font-->
     <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!--Import materialize.css-->
@@ -8,13 +8,16 @@
 
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <link rel="stylesheet" type="text/css" href="css/main.css"></link>
+    <title>itecnotions LLC - One stop shop for all your web needs.</title>
+    <meta name="Description" content="itecnotions LLC - One stop shop for all your web needs in ashburn, va" />
+    <meta name="keywords" content="allow apps ashburn audience beautiful better book branding brands bringing broad build business businesses campaigns challenge code communication companies connect contact create created define deliver design designing develop development different discover easytouse ecommerce established experiences fast feedback feel finalised flawless focus gathered grow help helping home idea ideas improve influences insights interaction interface intuitive itecnotions itecnotions@gmail.com iterated kept languages launch launched life likes look main media narrowed online perspectives platforms potential powerful produce produced product project project’s range refine reserved resulting rights sales seamless secure shopping shops smart social solutions stores storytelling stuff successful tested user websites wide works writing" />
+    <link rel="stylesheet" type="text/css" href="css/main.css"/>
 </head>
 <body>
 <header>
     <nav class="top-nav">
         <div class="container">
-            <div class="nav-wrapper"><a class="page-title">iTecnotions</a></div>
+            <div class="nav-wrapper"><h1><a class="page-title">iTecnotions</a></h1></div>
         </div>
     </nav>
     <div class="container"><a href="#" data-activates="nav-mobile" class="button-collapse top-nav full hide-on-large-only"><i class="mdi-navigation-menu"></i></a></div>
@@ -129,12 +132,12 @@
 <footer id="contact" class="section scrollspy page-footer">
     <div class="container">
         <div class="row">
-            <div class="col s6">
+            <div class="col s6" itemscope itemtype="http://schema.org/Person">
                 <h2>Contact us</h2>
-                <p>iTecnotions LLC</p>
-                <p>Ashburn, VA</p>
-                <p>571 279 4904</p>
-                <p>itecnotions@gmail.com</p>
+                <p itemprop="company">iTecnotions LLC</p>
+                <p itemprop="loc">Ashburn, VA</p>
+                <p  itemprop="tel">571 279 4904</p>
+                <p  itemprop="email"><a href="mailto:itecnotions@gmail.com">itecnotions@gmail.com</a></p>
             </div>
             <div class="col s6">
 
@@ -151,11 +154,20 @@
     </div>
 </div>
 <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-<link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"  media="screen,projection"/>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
 <script type="javascript">
     $(document).ready(function(){
         $('.scrollspy').scrollSpy();
     });
+
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-73898613-1', 'auto');
+    ga('send', 'pageview');
+
 </script>
 
 </body>
