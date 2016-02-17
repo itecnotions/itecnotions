@@ -1,6 +1,9 @@
 html{
     font-family:Roboto,Helvetica,sans-serif;
 }
+h1{
+    margin:0;
+}
 /*0db5b7*/
 ul.side-nav.fixed{
     background:url(http://g02.a.alicdn.com/kf/HTB1TugXIXXXXXbjXFXXq6xXFXXXQ/8x12FT-Indoor-font-b-Light-b-font-Grey-font-b-Texture-b-font-Wall-Wooden-Panel.jpg);
